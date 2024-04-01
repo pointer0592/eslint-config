@@ -1,5 +1,10 @@
 {
-  "name": "@pointer0592/eslint-config",
+  "name": "@handy-eco/eslint-config",
+  "description": "Common eslint configuration for Handy UI Projects",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pointer0592/eslint-config.git"
@@ -35,9 +40,6 @@
     "*.js",
     "src"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "engines": {
     "node": ">=16.0.0"
   },

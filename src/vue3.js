@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ["plugin:vue/vue3-strongly-recommended", "@handyui/eslint-config/typescript"],
+    extends: ["plugin:vue/vue3-strongly-recommended", "@handy-eco/eslint-config/typescript"],
     rules: {
         "vue/max-attributes-per-line": ["error", {
             "singleline": {

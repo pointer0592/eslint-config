@@ -1,4 +1,4 @@
-# @handyui/eslint-config
+# @@handy-eco/eslint-config
 
 > Common eslint configuration for Handy UI Projects
 
@@ -7,14 +7,14 @@
 #### Install
 
 ```bash
-yarn add -D eslint prettier @handyui/eslint-config
+yarn add -D eslint prettier @handy-eco/eslint-config
 ```
 
 #### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@handyui/eslint-config"
+  "extends": "@handy-eco/eslint-config"
 }
 ```
 
@@ -25,9 +25,9 @@ If you do not want to use `prettier`, you can easily compose your own config:
 ```json
 {
   "extends": [
-    "@handyui/eslint-config/ecma",
-    "@handyui/eslint-config/typescript",
-    "@handyui/eslint-config/json"
+    "@handy-eco/eslint-config/ecma",
+    "@handy-eco/eslint-config/typescript",
+    "@handy-eco/eslint-config/json"
   ]
 }
 ```
@@ -39,8 +39,8 @@ Vue Storefront `React` specific linting rules.
 ```json
 {
   "extends": [
-    "@handyui/eslint-config",
-    "@handyui/eslint-config/react"
+    "@handy-eco/eslint-config",
+    "@handy-eco/eslint-config/react"
   ]
 }
 ```
@@ -52,8 +52,8 @@ Vue Storefront `Vue` specific linting rules.
 ```json
 {
   "extends": [
-    "@handyui/eslint-config",
-    "@handyui/eslint-config/vue"
+    "@handy-eco/eslint-config",
+    "@handy-eco/eslint-config/vue"
   ]
 }
 ```
@@ -65,8 +65,8 @@ Vue Storefront `Vue3` specific linting rules.
 ```json
 {
   "extends": [
-    "@handyui/eslint-config",
-    "@handyui/eslint-config/vue3"
+    "@handy-eco/eslint-config",
+    "@handy-eco/eslint-config/vue3"
   ]
 }
 ```
