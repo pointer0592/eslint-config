@@ -1,16 +1,16 @@
 {
-  "name": "@handy-eco/eslint-config",
+  "name": "@pointer0592/eslint-config",
   "description": "Common eslint configuration for Handy UI Projects",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/pointer0592"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pointer0592/eslint-config.git"
+    "url": "git+https://github.com/pointer0592/eslint-config.git"
   },
   "license": "MIT",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
@@ -22,7 +22,11 @@
     "./prettier": "./src/prettier.js",
     "./json": "./src/json.js"
   },
-  "homepage": "https://handyui.onine",
+  "bugs": {
+    "url": "https://github.com/pointer0592/eslint-config/issues"
+  },
+
+  "homepage": "https://github.com/pointer0592/eslint-config.git#readme",
   "contributors": [
     {
       "name": "Scott Stanley",
