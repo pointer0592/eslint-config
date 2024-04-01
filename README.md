@@ -1,4 +1,4 @@
-# @@handy-eco/eslint-config
+# @handy-eco/eslint-config
 
 > Common eslint configuration for Handy UI Projects
 

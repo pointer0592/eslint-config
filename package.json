@@ -2,7 +2,6 @@
   "name": "@pointer0592/eslint-config",
   "description": "Common eslint configuration for Handy UI Projects",
   "publishConfig": {
-    "access": "public",
     "registry": "https://npm.pkg.github.com/pointer0592"
   },
   "repository": {
@@ -25,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/pointer0592/eslint-config/issues"
   },
-
   "homepage": "https://github.com/pointer0592/eslint-config.git#readme",
   "contributors": [
     {
