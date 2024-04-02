@@ -1,15 +1,20 @@
 {
-  "name": "@pointer0592/eslint-config",
+  "name": "@handy-eco/eslint-config",
   "description": "Common eslint configuration for Handy UI Projects",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/pointer0592"
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pointer0592/eslint-config.git"
+    "url": "https://github.com/pointer0592/eslint-config.git"
   },
+  "bugs": {
+    "url": "https://github.com/pointer0592/eslint-config/issues"
+  },
+  "homepage": "https://github.com/pointer0592/eslint-config.git#readme",
   "license": "MIT",
   "version": "1.0.1",
+  "author": "Scott Stanley <pointer0592@gmail.com>",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
@@ -21,10 +26,6 @@
     "./prettier": "./src/prettier.js",
     "./json": "./src/json.js"
   },
-  "bugs": {
-    "url": "https://github.com/pointer0592/eslint-config/issues"
-  },
-  "homepage": "https://github.com/pointer0592/eslint-config.git#readme",
   "contributors": [
     {
       "name": "Scott Stanley",
@@ -68,5 +69,5 @@
     "eslint-plugin-vue": "^9.10.0",
     "vue-eslint-parser": "^9.1.1"
   },
-  "stableVersion": "2.0.0"
+  "stableVersion": "1.0.0"
 }
